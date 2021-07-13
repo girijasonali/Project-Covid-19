@@ -1,0 +1,79 @@
+.menu{
+    list-style:none;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    color:lightgoldenrodyellow;
+    padding-left: 9px; 
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-style: italic;
+    font-size:25px;
+}
+.links:hover{
+    font-size: 30px;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    background-color:black;
+    font-family: monospace;
+    color:white;
+}
+#home{
+    margin-top: 100px;
+   
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img;hover{
+    transform: .scale(0.9);
+}
+img{
+    border-style:ridge;
+    border-color: black;
+    height: 500px;
+    width: 500px;
+}
+p{
+    font-size: 20px;
+    font-family:fantasy;
+}
+h2{
+    font-size: 45px;
+}
+.environment_li img{
+    border-radius: 50px;
+    height: 350px;
+    width: 450px;
+}
+.environment_li p{
+    margin-top: 10px;
+    color:black;
+}
+#home{
+    background-color: white;
+}
+#about{
+    background-color: white;
+}
+#videos{
+    background-color: white;
+}
+#contact{
+    background-color: white;
+}
+#img{
+    border-radius:250px;
+}
